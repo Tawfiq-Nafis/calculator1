@@ -1,0 +1,51 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+h1{
+  text-align: center;
+}
+.card{
+  margin: 0 auto;
+  max-width: 350px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 0;
+  transition: 0.3s;
+  box-shadow: 0 4px 8px 0 black;
+}
+.card:hover{
+  box-shadow: 0 16px 32px 0 black;
+}
+#result{
+  height:100px;
+  width:335px;
+  font-size:32px;
+  font-weight: bold;
+  padding: 0 5px;
+  letter-spacing: 2px;
+  text-align: right;
+
+}
+.btn{
+  width: 87px;
+  height: 70px;
+  background-color: #1f2326;
+  font-weight: bold;
+  font-size: 16px;
+  color:white;
+}
+.btn:hover{
+  background-color: pink;
+}
+.btn-side{
+  width: 87px;
+  height: 70px;
+  background-color: darkcyan;
+  font-weight: bold;
+  font-size: 16px;
+  color:white;
+}
+.btn-side:hover{
+   background-color: lightseagreen;
+}
